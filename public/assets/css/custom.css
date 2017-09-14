@@ -1,0 +1,100 @@
+.margintop5 {
+    margin-top: 5px !important;
+}
+.marginright5 {
+    margin-right: 5px !important;
+}
+.marginright10 {
+    margin-right: 10px !important;
+}
+.margintop15 {
+    margin-top: 15px !important;
+}
+.marginbottom15{
+    margin-bottom: 15px !important;
+}
+.margintop20 {
+    margin-top: 20px !important;
+}
+.margintop25 {
+    margin-top: 25px !important;
+}
+.marginleft30 {
+    margin-left: 30px !important;
+}
+.margintop35 {
+    margin-top: 35px !important;
+}
+.margintop65 {
+    margin-top: 65px !important;
+}
+.margintopbottom15 {
+    margin: 15px 0 !important;
+}
+.marginleftright15 {
+    margin: 15px 0 !important;
+}
+.margintopbottom20 {
+    margin: 20px 0 !important;
+}
+.negativebottom5 {
+    margin-bottom: -5px !important;
+}
+.negativeleft15{
+    margin-left: -15px;
+}
+
+.smaller.form-control {
+    height: 30px !important;
+}
+
+.smallerfont{
+    font-size: 0.9em !important;
+}
+
+.sidebar-menu li:active {
+    border-left: 5px solid #f39c12 !important;
+}
+.pagination{
+    margin-top: 50px !important;
+}
+.pagination > .active > a {
+    background-color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
+
+/* avatar input form */
+.kv-avatar .file-preview-frame,.kv-avatar .file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+.kv-avatar .file-input {
+    display: table-cell;
+    max-width: 200px;
+}
+
+/* google maps location launch modal */
+#map-canvas {
+    width: 570px;
+    height: 430px;
+}
+
+.saveSettings, .createEmployee, .addComputer, .addFlag {
+    width: 150px;
+}
+
+/* user avatar */
+img#avatarImg {
+    width: 150px;
+    height: 150px;
+    float: right;
+    border-radius: 50%;
+}
+
+select:invalid {
+    color: gray !important;
+    font-size: 14px !important;
+}

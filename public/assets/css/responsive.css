@@ -1,0 +1,79 @@
+@media screen and (max-width: 320px) {
+
+    h4.modal-title {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .box-header .box-title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    label{
+        font-size: 13px;
+    }
+    #launchGoogleMaps, #changePass {
+        font-size: 12px;
+    }
+    .updateBtn, .saveBtn, .closeBtn {
+        font-size: 13px;
+    }
+    .box-footer button {
+        display: block;
+        width: 100%;
+        margin: 2px 0 !important;
+    }
+    .saveSettings, .createEmployee {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* search bar in dataTables */
+@media screen and (max-width: 767px) {
+    div.dataTables_wrapper > div.row > div, div.dataTables_length, div.dataTables_filter, div.dataTables_info, div.dataTables_paginate {
+        text-align: right !important;
+    }
+}
+
+/* user avatar */
+@media screen and (max-width: 460px) {
+    #updateImg {
+        margin: 20px 0;
+        width: 100%;
+    }
+    #divImage {
+        width: 100%;
+    }
+    img#avatarImg {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #map-canvas {
+        width: inherit;
+    }
+    #filterStartDate, #filterExpireDate {
+        margin-right: 15px;
+    }
+    #agreementDates {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #filterDates {
+        margin-top: 15px;
+    }
+    #filterStartDate, #filterExpireDate {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    #branchHost label, #filterDates label, #filterStartDate label, #filterExpireDate label, #agreementDetails label {
+        font-size: 13px;
+    }
+}
+
+
