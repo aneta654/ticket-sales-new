@@ -118,7 +118,7 @@
             <div class="wow fadeIn">
 
                 <h1>E-продавница за карти</h1>
-                <h2>We create <span class="rotating">beautiful graphics, functional websites, working mobile apps</span></h2>
+                <h2><span class="rotating">Онлајн продажба на секаков вид на карти</span></h2>
                 <div class="actions">
                     <a href="{{route('login')}}" class="btn-get-started">Купи карта</a>
                     <a href="{{route('login')}}" class="btn-services">Продај карта</a>

@@ -3,7 +3,7 @@
 @section('content')
     <div class="container" style="padding-top: 100px;">
         <div class="row centered-form">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <div class="col-xs-12 col-sm-8 col-md-8 col-sm-offset-2 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">Внеси карта</h3>
@@ -32,7 +32,6 @@
 
                     </div>
                 </div>
-                <a id="mainPage" href="{{route('home')}}"><i class="fa fa-home fa-lg"></i></a>
             </div>
         </div>
     </div>

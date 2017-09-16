@@ -46,3 +46,6 @@ Route::get('/contact', function(){
 Route::get('/ticketSale', function(){
     return view('ticketSale');
 })->name('ticketSale');
+Route::get('/preview',function(){
+    return view('ticketPreview');
+})->name('preview');

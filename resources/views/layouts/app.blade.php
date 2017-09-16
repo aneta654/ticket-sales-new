@@ -27,6 +27,9 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/custom.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/about-us.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/framework.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/pop-up.css')}}">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -140,8 +143,8 @@
     </footer>
     </div>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery.js')}}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/bootstrap3-wysihtml5.all.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/select2.full.min.js')}}"></script>
@@ -155,6 +158,9 @@
     <script type="text/javascript" src="{{ asset('assets/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('assets/js/portfolio.js')}}"></script>
     <script type="text/javascript" src="{{asset('assets/js/jquery.easing.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/main.js')}}"></script>
+   {{-- <script type="text/javascript" src="{{asset('assets/js/modernizr.js')}}"></script>--}}
+
 
     <script>
         $(document).ready(function (e) {
