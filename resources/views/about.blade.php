@@ -7,16 +7,14 @@
 
                 <div id="about-us" class="clear">
                     <section id="statements" class="clear">
-                        <div class="row"></div>
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="panorama"><img src="{{asset('assets/img/960x340.gif')}}" alt=""></div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <img src="{{asset('assets/img/people.png')}}" alt="" style="width:650px; height: 500px;">
+                           {{-- <div class="col-md-6"><img src="{{asset('assets/img/sell-tickets.png')}}" alt=""></div>--}}
                         </div>
 
                         <div class="col-md-6 col-xs-12">
                             <h2>Vivamuslibero Auguer</h2>
-                            <img class="imgl" src="{{asset('assets/img/125x125.gif')}}" alt="">
                             <blockquote>
-                                <p>Vivamus accumsan. Donec molestie pede vel urna. Curabitur eget sem ornare felis gravida vestibulum.</p>
                                 <p>Sed pulvinar, tellus in venenatis vehicula, lorem magna dignissim erat.</p>
                             </blockquote>
                             <p class="right">&quot;Vivamus accumsan / Company Director&quot;</p>

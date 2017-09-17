@@ -3,6 +3,9 @@
 @section('content')
     <div class="container" style="padding-top: 100px; padding-bottom: 50px;">
         <div class="row">
+            <div class="col-md-4">
+                <img src="{{asset('assets/img/sell-tickets.png')}}" class="img-responsive">
+            </div>
             <div class="col-md-8">
                 <div class="well well-sm">
                     <form>
@@ -48,23 +51,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
-                <form>
-                    <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
-                    <address>
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">
-                            P:</abbr>
-                        (123) 456-7890
-                    </address>
-                    <address>
-                        <strong>Full Name</strong><br>
-                        <a href="mailto:#">first.last@example.com</a>
-                    </address>
-                </form>
-            </div>
+
         </div>
     </div>
 
