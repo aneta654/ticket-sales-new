@@ -49,3 +49,9 @@ Route::get('/ticketSale', function(){
 Route::get('/preview',function(){
     return view('ticketPreview');
 })->name('preview');
+Route::get('/tickets',function(){
+    return view('shoppingCart');
+})->name('shoppingCart');
+Route::get('/forum',function(){
+    return view('forum');
+})->name('forum');

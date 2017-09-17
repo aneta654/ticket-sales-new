@@ -3,12 +3,9 @@
 @section('content')
 <div class="container" style="padding-top: 50px;">
     <div class="row">
-        <!--==========================
-  Portfolio Section
-============================-->
+        <!--=========================Portfolio Section============================-->
         <section id="portfolio">
             <div class="container wow fadeInUp">
-
                 <div class="row">
                     <div class="col-md-3">
                         <div class="panel panel-default">
@@ -31,7 +28,7 @@
                     <div class="col-md-3">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <a class="portfolio-item" style="background-image: url({{asset('assets/img/toto17_golema.jpg')}});" href="">
+                                <a class="portfolio-item" style="background-image: url({{asset('assets/img/toto17_golema.jpg')}});" href="{{route('preview')}}">
                                     <div class="details">
                                         <span>Повеќе</span>
                                     </div>
@@ -39,7 +36,7 @@
                             </div>
                             <div class="panel-body">
                                 <h4>TOTO</h4>
-                                <p>Еден од најголемите американски бендови на сите времиња- ТОТО, за прв пат доаѓа во Скопје...</p>
+                                <p>Еден од најголемите американски бендови на сите времиња - ТОТО, за прв пат доаѓа во Скопје...</p>
                                 <a href="#" class="cd-popup-trigger btn btn-lg btn-blue"><i class="glyphicon glyphicon-shopping-cart"></i></a>
                             </div>
                         </div>
@@ -47,7 +44,7 @@
                     <div class="col-md-3">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <a class="portfolio-item" style="background-image: url({{asset('assets/img/englezi.jpg')}});" href="">
+                                <a class="portfolio-item" style="background-image: url({{asset('assets/img/englezi.jpg')}});" href="{{route('preview')}}">
                                     <div class="details">
                                         <span>Повеќе</span>
                                     </div>
@@ -72,7 +69,7 @@
                     <div class="col-md-3">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <a class="portfolio-item" style="background-image: url({{asset('assets/img/onelove.png')}});" href="">
+                                <a class="portfolio-item" style="background-image: url({{asset('assets/img/onelove.png')}});" href="{{route('preview')}}">
                                     <div class="details">
                                         <span>Повеќе</span>
                                     </div>
@@ -95,7 +92,6 @@
                             </div>
                         </div>
                     </div>
-
                    {{-- <div class="col-md-3">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -128,11 +124,8 @@
                     </div>
                     {{--pop up model end--}}
                 </div>
-
-
-                </div>
             </div>
         </section>
-</div>
+    </div>
 </div>
 @endsection

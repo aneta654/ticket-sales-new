@@ -61,8 +61,9 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        <li><a href="{{route('home')}}">Купи карти</a></li>
+                        <li><a href="{{route('shoppingCart')}}">Купи карти</a></li>
                         <li><a href="{{route('ticketSale')}}">Продај карти</a></li>
+                        <li><a href="{{route('forum')}}">Форум</a></li>
                         <li><a href="{{route('about')}}">За нас</a></li>
                         <li><a href="{{route('contact')}}">Контакт</a></li>
                     </ul>

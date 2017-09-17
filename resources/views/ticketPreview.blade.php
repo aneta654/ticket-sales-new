@@ -5,15 +5,7 @@
             <div class="col-md-8 col-md-offset-2 col-xs-12">
                 <div class="panel panel-default" style=" box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;">
                     <div class="panel-heading" style="height: 80px;">
-                            <a href="#" class="cd-popup-trigger btn btn-blue btn-lg pull-right" style="width: 100px; height: 60px;"><i class="glyphicon glyphicon-shopping-cart" style="font-size: 30px;"></i></a>
-                           {{-- pop up model--}}
-                            <div class="cd-popup" role="alert">
-                                <div class="cd-popup-container">
-                                    <p>Додадено во кошничка</p>
-                                    <a href="#" class="cd-popup-close img-replace">Затвори</a>
-                                </div> <!-- cd-popup-container -->
-                            </div>
-                            {{--pop up model end--}}
+                        <a href="#" class="cd-popup-trigger btn btn-blue btn-lg pull-right" style="width: 100px; height: 60px;"><i class="glyphicon glyphicon-shopping-cart" style="font-size: 30px;"></i></a>
                     </div>
                     <div class="panel-body">
                         <div class="col-md-6 ">
@@ -51,5 +43,13 @@
                 </div>
             </div>
         </div>
+        {{-- pop up model--}}
+        <div class="cd-popup" role="alert">
+            <div class="cd-popup-container">
+                <p>Додадено во кошничка</p>
+                <a href="#" class="cd-popup-close img-replace">Затвори</a>
+            </div> <!-- cd-popup-container -->
+        </div>
+        {{--pop up model end--}}
     </div>
     @endsection
